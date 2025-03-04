@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 app.use(express.json());
 
+
+
 // CANDY STORE API
 const CANDIES = [
   { name: 'snickers', qty: 43, price: 1.5 },
